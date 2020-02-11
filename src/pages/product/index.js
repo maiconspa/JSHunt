@@ -21,19 +21,18 @@ export default class Product extends Component {
 
     render() {
         const { product } = this.state;
-
+        
         return (
             <div className="geral">
                 <div className="product-info">
                     <h1>{product.title}</h1>
                     <p>{product.description}</p>
-
                     <p>
                         URL: <a href={product.url}>{product.url}</a>
                     </p>
                 </div>
                 <div className="action">
-                    <Link to={'/'}>Voltar</Link>
+                    <Link to={'/'}>Back</Link>
                 </div>
             </div>
         );

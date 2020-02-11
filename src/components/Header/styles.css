@@ -1,11 +1,19 @@
 #main-header{
+    margin-top: 20px;
     height: 60px;
-    background-color: #ba552f;
+    background-color: none;
     width: 100%;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#t1 {
+    color: #29D29C;
+}
+
+#t2 {
+    color: #fff;
 }

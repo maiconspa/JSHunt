@@ -5,16 +5,16 @@
 }
 
 .product-list article {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
+    transition: all .2s;
 }
 
 .product-list article p {
     font-size: 16px;
-    color: #999;
+    color: rgb(128, 126, 126);
     margin-top: 5px;
     line-height: 24px;
 }
@@ -22,22 +22,26 @@
 .product-list article a {
     height: 42px;
     border-radius: 5px;
-    border: 2px solid #da552f;
+    border: 2px solid rgb(0, 0, 0, 0.8);
     background: none;
     margin-top: 10px;
-    color: #da552f;
+    color: rgb(0, 0, 0, 0.8);
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items:center;
-    transition: all .2s;
+    transition: all .3s;
+}
+
+.product-list article:hover {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .product-list article a:hover {
-    background-color: #da552f;
-    color: #fff;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #29D29C;
 }
 
 .product-list .actions {
@@ -47,19 +51,20 @@
 }
 
 .product-list .actions button {
+    width: 85px;
     padding: 10px;
     border-radius: 5px;
     border: 0;
-    background-color: #da552f;
-    color: #fff;
+    background-color: #29D29C;
+    color: rgb(0, 0, 0, 0.8);
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: all .2s;
+    transition: all .4s;
 }
 
 .product-list .actions button:hover {
-    opacity: 0.7;
+    color: #fff;
 }
 
 .product-list .actions button[disabled] {

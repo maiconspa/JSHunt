@@ -47,18 +47,18 @@ export default class main extends Component {
             <div className="product-list">
                 {products.map(product => (
                     <article key={product._id}>
-                        <strong>
+                        <h1>
                             {product.title}
-                        </strong>
+                        </h1>
                         <p>
                             {product.description}
                         </p>
-                        <Link to={'/products/' +product._id}>Acessar</Link>
+                        <Link to={'/products/' +product._id}>Details</Link>
                     </article>
                 ))}
                 <div className="actions">
-                    <button disabled={page === 1} onClick={this.prevPage}>Anterior</button>
-                    <button disabled={page === productInfo.pages} onClick={this.nextPage}>Proximo</button>
+                    <button disabled={page === 1} onClick={this.prevPage}>Previous</button>
+                    <button disabled={page === productInfo.pages} onClick={this.nextPage}>Next</button>
                 </div>
             </div>
         )
