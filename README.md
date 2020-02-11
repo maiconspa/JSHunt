@@ -20,7 +20,7 @@ If ( have_NODEJS_installed_on_your_computer ) {
     $ npm install       // (this may take a while)
     
     // After that, run:
-    $ npm start       // (this will start the application on localhost:3000)
+    $ npm start       // (the application will start on localhost:3000)
 
 } else {
 
