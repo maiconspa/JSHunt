@@ -10,3 +10,21 @@
 
 ### After
 <img src="images/after1.png" width="350"> <img src="images/after2.png" width="350">
+
+### Would U like to test?
+<p>Follow the steps below</p>
+
+If ( have_NODEJS_installed_on_your_computer ) {
+
+    // In the project directory, execute the command:
+    $ npm install       // (this may take a while)
+    
+    // After that, run:
+    $ npm start       // (this will start the application on localhost:3000)
+
+} else {
+
+    // Download Node.js via the link below]
+    https://nodejs.org/pt-br/download/
+    
+}
