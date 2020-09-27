@@ -1,30 +1,20 @@
-# JSHunt
-<p>An ReactJS project developed during the Rocketseat React course.</p>
+<h1 align="center">JS Hunt</h1>
 
-## Update on 11 feb 2019:
-<p>I decided to make a "remaster" :)</p>
-<p><b>Technically:</b> Clean code and UX/ UI improvements</p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/maiconspa/JSHunt?color=9cf">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/maiconspa/JSHunt?color=9cd">
+  <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/maiconspa/JSHunt?color=9cb">
+</p>
 
-### Before
-<img src="images/before1.png" width="350"> <img src="images/before2.png" width="350">
 
-### After
-<img src="images/after1.png" width="350"> <img src="images/after2.png" width="350">
+Uses GitHub API for list information of profiles and repositories.
 
-### Would U like to test?
-<p>Follow the steps below</p>
+## To run:
 
-If ( have_NODEJS_installed_on_your_computer ) {
+In the project directory, you can run:
+### `npm install`
+for download and install dependencies.
 
-    // In the project directory, execute the command:
-    $ npm install       // (this may take a while)
-    
-    // After that, run:
-    $ npm start       // (the application will start on localhost:3000)
-
-} else {
-
-    // Download Node.js via the link below]
-    https://nodejs.org/pt-br/download/
-    
-}
+### `npm start`
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
